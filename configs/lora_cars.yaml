@@ -1,0 +1,14 @@
+model_id: runwayml/stable-diffusion-v1-5
+output_dir: ./outputs/cars_lora
+train:
+  batch_size: 2
+  epochs: 10
+  lr: 1e-4
+  image_size: 512
+  rank: 8
+  fp16: true
+  log_interval: 50
+  sample_interval: 200
+data:
+  images_dir: ./data/images
+  captions_csv: ./data/captions.csv
