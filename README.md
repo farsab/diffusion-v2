@@ -26,9 +26,3 @@ python infer.py --lora_dir ./outputs/cars_lora --prompt "a futuristic concept ca
 
 Images saved in `./samples`.
 
-## 📊 Features
-- Config-driven YAML setup
-- TensorBoard + CSV logging
-- Save intermediate image samples
-- Easy inference script
-- Ready for GitHub portfolio
